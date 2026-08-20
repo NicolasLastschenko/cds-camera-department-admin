@@ -1,2 +1,5 @@
-# cds-camera-department-admin
-Camera-department administration, project records and production documentation.
+# CDS ADMIN / 01 — Camera Department Admin
+
+Professional camera-department administration, project records and production documentation.
+
+Public release: **V1.0.0**.
