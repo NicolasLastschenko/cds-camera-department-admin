@@ -3,15 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Professional camera-department administration, project records and production documentation.">
-<meta name="theme-color" content="#f3f0e8">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta name="apple-mobile-web-app-title" content="Camera Admin">
-<meta name="robots" content="noindex,nofollow">
-<link rel="manifest" href="./manifest.webmanifest">
-<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-<title>CDS ADMIN / 01 — Camera Department Admin</title>
+<title>CDS — Camera Department Admin</title>
 <style>
 :root{
   --paper:#f3f0e8;--paper2:#e9e5dc;--ink:#11110f;--muted:#6c6860;--line:#c9c4b9;--card:#f8f6f0;
@@ -2451,390 +2443,64 @@ input[type="date"]{width:100%;max-width:100%;min-width:0}
 </style>
 
 
-<style id="adminGeneratedDocumentStandard_v017">
-/* ADMIN / 01 -> FORMS / 01 generated records.
-   Print-first, black/white, Inter, light writable/data rules,
-   repeated masthead/footer, continuous pagination. */
+<style id="cdsPublishedMaintenance_v1">
+/* CDS DIGITAL FAMILY — published maintenance standard */
+.productversion{display:none!important}
 
-.docpreview .admin-print-page,
-#printView .admin-print-page,
-.cds-dom-pdf-source .admin-print-page{
-  box-sizing:border-box!important;
-  background:#fff!important;
-  color:#000!important;
+/* About / Data & Backups: shared 720px component */
+#helpModal .helpbox{
+  width:min(720px,100%)!important;
+  max-height:90vh!important;
+  overflow:auto!important;
+  background:var(--paper)!important;
+  border:1px solid var(--ink)!important;
+  border-radius:18px!important;
+  padding:22px!important;
+  box-shadow:0 24px 80px rgba(0,0,0,.22)!important;
+}
+#helpModal .modalhead{
   display:flex!important;
-  flex-direction:column!important;
-  overflow:hidden!important;
+  align-items:center!important;
+  gap:10px!important;
+  margin-bottom:18px!important;
 }
-
-.docpreview .admin-print-body,
-#printView .admin-print-body,
-.cds-dom-pdf-source .admin-print-body{
-  flex:1 1 auto!important;
-  min-height:0!important;
-  box-sizing:border-box!important;
-  padding-bottom:8px!important;
-}
-
-/* Masthead: one strong structural rule. */
-.docpreview .printmast,
-#printView .printmast,
-.cds-dom-pdf-source .printmast{
-  display:flex!important;
-  align-items:flex-end!important;
-  gap:12px!important;
-  margin:0 0 12px!important;
-  padding:0 0 8px!important;
-  border-bottom:1.35px solid #000!important;
-  flex:0 0 auto!important;
-}
-.docpreview .printmast .cds,
-#printView .printmast .cds,
-.cds-dom-pdf-source .printmast .cds{
-  font-size:24px!important;
-  line-height:.9!important;
-  font-weight:900!important;
-  letter-spacing:-.02em!important;
-}
-.docpreview .printmast .brandname,
-#printView .printmast .brandname,
-.cds-dom-pdf-source .printmast .brandname{
-  margin-top:5px!important;
-  font-size:5.8px!important;
-  line-height:1!important;
-  font-weight:700!important;
-  letter-spacing:.24em!important;
-}
-.docpreview .printmast .code,
-#printView .printmast .code,
-.cds-dom-pdf-source .printmast .code{
-  margin-left:auto!important;
-  font-size:5.8px!important;
-  line-height:1!important;
-  font-weight:800!important;
-  letter-spacing:.12em!important;
-  color:#111!important;
-}
-
-/* Document identity block. */
-.docpreview .printsection,
-#printView .printsection,
-.cds-dom-pdf-source .printsection{
-  margin:0 0 5px!important;
-  font-size:5.5px!important;
-  line-height:1!important;
-  font-weight:850!important;
-  letter-spacing:.16em!important;
-  color:#111!important;
-}
-.docpreview .printtitle,
-#printView .printtitle,
-.cds-dom-pdf-source .printtitle{
-  margin:0 0 3px!important;
-  font-size:21px!important;
-  line-height:.96!important;
-  font-weight:900!important;
-  letter-spacing:-.03em!important;
-}
-.docpreview .printdeck,
-#printView .printdeck,
-.cds-dom-pdf-source .printdeck{
-  max-width:none!important;
-  margin:0 0 10px!important;
-  padding:0 0 8px!important;
-  border-bottom:1px solid #000!important;
-  font-size:7.5px!important;
-  line-height:1.2!important;
-  color:#333!important;
-}
-
-/* Project/meta fields: light rules only. */
-.docpreview .printmeta,
-#printView .printmeta,
-.cds-dom-pdf-source .printmeta{
-  display:grid!important;
-  grid-template-columns:repeat(4,minmax(0,1fr))!important;
-  gap:0 12px!important;
-  margin:0 0 12px!important;
-}
-.docpreview .printmeta div,
-#printView .printmeta div,
-.cds-dom-pdf-source .printmeta div{
-  min-height:28px!important;
-  padding:4px 0 4px!important;
-  border-bottom:.7px solid #bfc0c2!important;
-}
-.docpreview .printmeta small,
-#printView .printmeta small,
-.cds-dom-pdf-source .printmeta small{
-  display:block!important;
-  font-size:5.1px!important;
-  line-height:1!important;
-  font-weight:800!important;
-  letter-spacing:.10em!important;
-  color:#222!important;
-}
-.docpreview .printmeta b,
-#printView .printmeta b,
-.cds-dom-pdf-source .printmeta b{
-  display:block!important;
-  margin-top:4px!important;
-  font-size:7.15px!important;
-  line-height:1.12!important;
-  font-weight:750!important;
-}
-
-/* Major internal divisions: structure comes from black rules, not grey fill. */
-.docpreview .printbar,
-#printView .printbar,
-.cds-dom-pdf-source .printbar{
-  margin:13px 0 0!important;
-  padding:6px 0 5px!important;
-  background:transparent!important;
-  border-top:1px solid #000!important;
-  border-bottom:1px solid #000!important;
-  font-size:6px!important;
-  line-height:1!important;
-  font-weight:900!important;
-  letter-spacing:.13em!important;
-  color:#111!important;
-}
-
-/* Tables remain tables because the underlying data is genuinely tabular. */
-.docpreview .printtable,
-#printView .printtable,
-.cds-dom-pdf-source .printtable{
-  width:100%!important;
-  border-collapse:collapse!important;
-  table-layout:fixed!important;
-  min-width:0!important;
-}
-.docpreview .printtable th,
-#printView .printtable th,
-.cds-dom-pdf-source .printtable th{
-  padding:5px 4px!important;
-  background:transparent!important;
-  border-bottom:1px solid #000!important;
-  font-size:6px!important;
-  line-height:1.15!important;
-  font-weight:850!important;
-  color:#111!important;
-}
-.docpreview .printtable td,
-#printView .printtable td,
-.cds-dom-pdf-source .printtable td{
-  padding:5px 4px!important;
-  border-bottom:.7px solid #c5c6c8!important;
-  font-size:7px!important;
-  line-height:1.2!important;
-  vertical-align:top!important;
-  overflow-wrap:anywhere!important;
-}
-
-/* Totals / explanatory notes. */
-.docpreview .printtotals,
-#printView .printtotals,
-.cds-dom-pdf-source .printtotals{
-  margin:9px 0 0!important;
-  padding:7px 0 0!important;
-  border-top:1px solid #000!important;
-  gap:18px!important;
-  font-size:8px!important;
-}
-.docpreview .printtotals small,
-#printView .printtotals small,
-.cds-dom-pdf-source .printtotals small{
-  font-size:5.5px!important;
-  color:#333!important;
-}
-.docpreview .printnote,
-#printView .printnote,
-.cds-dom-pdf-source .printnote{
-  margin:9px 0 0!important;
-  padding:6px 0 0!important;
-  font-size:6.4px!important;
-  line-height:1.35!important;
-  color:#333!important;
-}
-
-/* Report action items. */
-.docpreview .printreportitem,
-#printView .printreportitem,
-.cds-dom-pdf-source .printreportitem{
-  padding:7px 0!important;
-  border-bottom:.7px solid #c5c6c8!important;
-}
-.docpreview .printreportitem h4,
-#printView .printreportitem h4,
-.cds-dom-pdf-source .printreportitem h4{
-  margin:0 0 3px!important;
-  font-size:8.1px!important;
-  line-height:1.1!important;
-}
-.docpreview .printreportitem p,
-#printView .printreportitem p,
-.cds-dom-pdf-source .printreportitem p{
+#helpModal .modalhead h3{
   margin:0!important;
-  font-size:6.8px!important;
-  line-height:1.3!important;
-}
-.docpreview .printreportmeta,
-#printView .printreportmeta,
-.cds-dom-pdf-source .printreportmeta{
-  margin-top:4px!important;
-  font-size:5.6px!important;
+  margin-right:auto!important;
+  font-size:1.17rem!important;
   line-height:1.2!important;
-  color:#444!important;
+  font-weight:850!important;
+  letter-spacing:-.015em!important;
+  color:var(--ink)!important;
 }
-
-/* Signature/approval is an atomic closing block and may be bottom-anchored. */
-.docpreview .printsign,
-#printView .printsign,
-.cds-dom-pdf-source .printsign{
-  display:grid!important;
-  grid-template-columns:1fr 1fr!important;
-  gap:32px!important;
-  margin:12px 0 0!important;
-  padding:8px 0 0!important;
-  border-top:1px solid #000!important;
+#helpModal .app-info-panel h3{
+  margin:18px 0 5px!important;
+  font-size:.72rem!important;
+  line-height:1.25!important;
+  font-weight:850!important;
+  letter-spacing:.12em!important;
+  text-transform:uppercase!important;
+  color:var(--ink)!important;
 }
-.docpreview .printsign div,
-#printView .printsign div,
-.cds-dom-pdf-source .printsign div{
-  min-height:42px!important;
-  padding:0 0 5px!important;
-  border-bottom:.7px solid #bfc0c2!important;
+#helpModal .app-info-panel h3:first-child{margin-top:0!important}
+#helpModal .app-info-panel p{
+  margin:0!important;
+  font-size:.82rem!important;
+  line-height:1.45!important;
+  color:var(--muted)!important;
 }
-.docpreview .printsign small,
-#printView .printsign small,
-.cds-dom-pdf-source .printsign small{
-  display:block!important;
-  font-size:5.3px!important;
-  line-height:1.15!important;
-  font-weight:650!important;
-  letter-spacing:.08em!important;
-  color:#222!important;
-}
-.docpreview .admin-print-body.has-signoff,
-#printView .admin-print-body.has-signoff,
-.cds-dom-pdf-source .admin-print-body.has-signoff{
-  display:flex!important;
-  flex-direction:column!important;
-}
-.docpreview .admin-print-body.has-signoff > .printsign,
-#printView .admin-print-body.has-signoff > .printsign,
-.cds-dom-pdf-source .admin-print-body.has-signoff > .printsign{
-  margin-top:auto!important;
-  flex:0 0 auto!important;
-}
-
-/* Footer: reserved breathing room above the rule. */
-.docpreview .printfooter,
-#printView .printfooter,
-.cds-dom-pdf-source .printfooter{
-  display:flex!important;
-  flex:0 0 auto!important;
-  margin:8px 0 0!important;
-  padding:5px 0 0!important;
-  border-top:1px solid #000!important;
-  font-size:5.2px!important;
-  line-height:1!important;
-  font-weight:400!important;
-  letter-spacing:.07em!important;
-  color:#222!important;
-}
-.docpreview .printfooter span:last-child,
-#printView .printfooter span:last-child,
-.cds-dom-pdf-source .printfooter span:last-child{margin-left:auto!important}
-
-/* Continuation pages: repeated document identity remains compact. */
-.docpreview .admin-print-page.is-continuation .printdeck,
-#printView .admin-print-page.is-continuation .printdeck,
-.cds-dom-pdf-source .admin-print-page.is-continuation .printdeck{
-  margin-bottom:8px!important;
-}
-
-/* Calendar keeps its functional landscape grid; only typography/rules harmonize. */
-.docpreview .printcalendar,
-#printView .printcalendar,
-.cds-dom-pdf-source .printcalendar{
-  border-left:1px solid #000!important;
-  border-top:1px solid #000!important;
-}
-.docpreview .printcalhead,
-#printView .printcalhead,
-.cds-dom-pdf-source .printcalhead{
-  background:transparent!important;
-  border-right:1px solid #000!important;
-  border-bottom:1px solid #000!important;
-  font-size:6px!important;
-}
-.docpreview .printcalday,
-#printView .printcalday,
-.cds-dom-pdf-source .printcalday{
-  border-right:.7px solid #bfc0c2!important;
-  border-bottom:.7px solid #bfc0c2!important;
-}
-
-/* Screen/PDF fixed sheet geometry. */
-@media screen{
-  .docpreview .admin-print-page{
-    width:794px!important;
-    height:1123px!important;
-    min-height:1123px!important;
-    max-height:1123px!important;
-    padding:38px 38px 30px!important;
-  }
-  .docpreview .admin-print-page.print-schedule{
-    width:1119px!important;
-    height:794px!important;
-    min-height:794px!important;
-    max-height:794px!important;
-    padding:32px 38px 28px!important;
-  }
-}
-@media print{
-  #printView .admin-print-page{
-    height:296mm!important;
-    min-height:296mm!important;
-    padding:8mm 8mm 6mm!important;
-  }
-  #printView .admin-print-page.print-schedule{
-    height:209mm!important;
-    min-height:209mm!important;
-    padding:7mm 8mm 6mm!important;
-  }
-  #printView .admin-print-body{padding-bottom:2.1mm!important}
-}
-</style>
-
-
-<style id="adminDesktopSignoffPreviewFix_v0172">
-/* Desktop preview only.
-   PDF capture and phone preview already render the bottom-anchored sign-off correctly.
-   Use absolute anchoring inside the final page body on desktop so the sign-off cannot
-   be clipped by the fixed-height flex preview. Pagination already guarantees space. */
-@media screen and (min-width:641px){
-  .docpreview .admin-print-body.has-signoff{
-    position:relative!important;
-    display:block!important;
-    overflow:hidden!important;
-  }
-  .docpreview .admin-print-body.has-signoff > .printsign{
-    position:absolute!important;
-    left:0!important;
-    right:0!important;
-    bottom:0!important;
-    width:auto!important;
-    margin:0!important;
-    z-index:2!important;
-  }
+#helpModal .app-info-panel p+p{margin-top:8px!important}
+#helpModal .app-info-panel strong{color:var(--ink)!important}
+@media(max-width:640px){
+  #helpModal{padding:14px!important}
+  #helpModal .helpbox{padding:18px!important}
+  #helpModal .modalhead h3{font-size:1.05rem!important}
 }
 </style>
 
 </head>
 <body>
-<div class="topbar"><div class="topinner"><div class="productbrand"><div class="appmark appmark-small appmark-cds" aria-hidden="true">CDS</div><div class="productbrandtext"><b><span class="productname">ADMIN / 01</span><span class="productversion"> · V1.0.0</span></b></div></div><span class="savechip" id="saveChip"></span><div class="langswitch" role="group" aria-label="Language / Idioma"><button class="langchoice" data-lang="en" type="button">EN</button><button class="langchoice" data-lang="es" type="button">ES</button></div><button class="iconbtn" id="appInfoBtn" aria-label="About, data and backups">?</button><button class="iconbtn" id="themeBtn" aria-label="Toggle theme">◐</button></div></div>
+<div class="topbar"><div class="topinner"><div class="productbrand"><div class="appmark appmark-small appmark-cds" aria-hidden="true">CDS</div><div class="productbrandtext"><b><span class="productname">ADMIN / 01</span><span class="productversion"> · v1.0.0</span></b></div></div><span class="savechip" id="saveChip"></span><div class="langswitch" role="group" aria-label="Language / Idioma"><button class="langchoice" data-lang="en" type="button">EN</button><button class="langchoice" data-lang="es" type="button">ES</button></div><button class="iconbtn" id="appInfoBtn" aria-label="About, data and backups">?</button><button class="iconbtn" id="themeBtn" aria-label="Toggle theme">◐</button></div></div>
 
 <main id="launchView" class="shell launch">
   <h1 class="launch-title"><span>Camera</span><span>Department</span><span>Admin</span></h1>
@@ -3442,7 +3108,7 @@ function openAppInfo(){
          <p>Los PDF y CSV son documentos de salida y registros de trabajo. <strong>No son respaldos restaurables</strong> y no pueden reconstruir por sí solos el proyecto editable.</p>
          <h3>Antes de cambiar o borrar datos</h3>
          <p>Exporta un respaldo JSON antes de cambiar de teléfono o computadora, borrar datos del navegador/sitio, eliminar el acceso guardado a la app o restablecer el navegador.</p>
-         <div class="versionline">CDS ADMIN / 01 · V1.0.0</div>
+         <div class="versionline">CDS ADMIN / 01 · v1.0.0</div>
        </div>`
     : `<div class="app-info-panel">
          <h3>Project data</h3>
@@ -3452,7 +3118,7 @@ function openAppInfo(){
          <p>PDF and CSV exports are output documents and working records. <strong>They are not restorable backups</strong> and cannot by themselves rebuild the editable project.</p>
          <h3>Before changing or clearing data</h3>
          <p>Export a JSON backup before changing phone or computer, clearing browser/site data, removing saved app access, or resetting the browser.</p>
-         <div class="versionline">CDS ADMIN / 01 · V1.0.0</div>
+         <div class="versionline">CDS ADMIN / 01 · v1.0.0</div>
        </div>`;
   $('#helpModal').classList.remove('hidden');
   requestAnimationFrame(()=>{$('#helpModal').scrollTop=0;$('#helpModal').querySelector('.helpbox').scrollTop=0});
@@ -3734,34 +3400,38 @@ function projectSummaryDocument(){const p=active(),st=workflowStats(p),open=p.re
 function rawDocumentHtml(type){return ({time:timeDocument,allowances:allowanceDocument,expenses:expenseDocument,schedule:scheduleDocument,report:reportDocument,financial:financialDocument,summary:projectSummaryDocument}[type]||projectSummaryDocument)()}
 
 
-
-function adminCloneTableWithRows(table,rows){
-  const t=table.cloneNode(true),body=t.querySelector('tbody');
-  if(body){
-    body.innerHTML='';
-    rows.forEach(r=>body.appendChild(r.cloneNode(true)));
+function adminSplitTableChunks(table,maxRows=12){
+  const rows=[...table.querySelectorAll('tbody tr')];
+  if(!rows.length||rows.length<=maxRows)return [table.cloneNode(true)];
+  const chunks=[];
+  for(let i=0;i<rows.length;i+=maxRows){
+    const t=table.cloneNode(true),body=t.querySelector('tbody');
+    if(body){
+      body.innerHTML='';
+      rows.slice(i,i+maxRows).forEach(r=>body.appendChild(r.cloneNode(true)));
+    }
+    chunks.push(t);
   }
-  return t
+  return chunks;
 }
-function adminMeasureFits(head,blocks,footer,type){
+function adminMeasurePage(head,blocks,footer,type,pageIndex){
   const host=document.createElement('div');
   host.className='docpreview cds-admin-measure';
   host.style.cssText='position:absolute;left:-100000px;top:0;width:'+(type==='schedule'?1119:794)+'px;visibility:hidden;pointer-events:none;z-index:-1;';
   const page=document.createElement('div');
   page.className='printdoc print-'+type+' admin-print-page'+(type==='schedule'?' print-schedule':'');
-  const bodyWrap=document.createElement('div');
-  bodyWrap.className='admin-print-body';
-  const hasSignoff=blocks.some(x=>x.classList&&x.classList.contains('printsign'));
-  if(hasSignoff)bodyWrap.classList.add('has-signoff');
-  head.forEach(h=>bodyWrap.appendChild(h.cloneNode(true)));
-  blocks.forEach(b=>bodyWrap.appendChild(b.cloneNode(true)));
-  page.appendChild(bodyWrap);
+  page.style.setProperty('min-height','0','important');
+  page.style.setProperty('height','auto','important');
+  page.style.setProperty('margin','0','important');
+  page.style.setProperty('box-shadow','none','important');
+  head.forEach(h=>page.appendChild(h.cloneNode(true)));
+  blocks.forEach(b=>page.appendChild(b.cloneNode(true)));
   if(footer)page.appendChild(footer.cloneNode(true));
   host.appendChild(page);
   document.body.appendChild(host);
-  const fits=bodyWrap.scrollHeight<=bodyWrap.clientHeight+0.5;
+  const h=page.getBoundingClientRect().height;
   host.remove();
-  return fits
+  return h;
 }
 function paginateAdminDocument(html,type){
   const holder=document.createElement('div');holder.innerHTML=html;
@@ -3769,9 +3439,9 @@ function paginateAdminDocument(html,type){
   const children=[...src.children];
   const footer=children.find(x=>x.classList.contains('printfooter'));
   const head=children.filter(x=>x.classList.contains('printmast')||x.classList.contains('printsection')||x.classList.contains('printtitle')||x.classList.contains('printdeck'));
-  const body=children.filter(x=>!head.includes(x)&&x!==footer);
+  let body=children.filter(x=>!head.includes(x)&&x!==footer);
 
-  // Shoot Calendar is intentionally one landscape sheet.
+  // Calendar is already a deliberate single landscape sheet.
   if(type==='schedule'){
     const one=src.cloneNode(false);
     one.className=src.className+' admin-print-page print-schedule';
@@ -3787,125 +3457,46 @@ function paginateAdminDocument(html,type){
     return one.outerHTML;
   }
 
-  // Signature / approval is always the final atomic block.
-  const signoff=body.find(x=>x.classList.contains('printsign'))||null;
-  const flow=body.filter(x=>x!==signoff);
+  // Split only genuinely long tables; all other blocks remain intact.
+  const pieces=[];
+  body.forEach(el=>{
+    if(el.tagName==='TABLE') adminSplitTableChunks(el,24).forEach(x=>pieces.push(x));
+    else pieces.push(el.cloneNode(true));
+  });
 
+  const pageLimit=1100; // measured against the fixed 1123 px A4 sheet; small reserve prevents clipping
   const pages=[];
   let current=[];
   const flush=()=>{if(current.length){pages.push(current);current=[]}};
-
-  // Before splitting any table or flow content, test the complete document.
-  // This prevents a one-page form from being filled to the bottom first and
-  // then pushing an otherwise-fitting bottom-anchored sign-off onto page 2.
-  const fullOnePageBlocks=signoff?[...flow,signoff]:[...flow];
-  if(adminMeasureFits(head,fullOnePageBlocks,footer,type)){
-    current=fullOnePageBlocks.map(x=>x.cloneNode(true));
-    flush();
-  }
-
-  const carryOrphanBar=()=>{
-    if(current.length&&current[current.length-1].classList&&current[current.length-1].classList.contains('printbar')){
-      return current.pop()
-    }
-    return null
-  };
-
-  if(!pages.length) for(let ei=0;ei<flow.length;ei++){
-    const el=flow[ei];
-
-    if(el.tagName==='TABLE'){
-      const rows=[...el.querySelectorAll('tbody tr')];
-
-      // Empty/no-body tables remain atomic.
-      if(!rows.length){
-        if(current.length&&!adminMeasureFits(head,[...current,el],footer,type)){
-          const bar=carryOrphanBar();flush();if(bar)current.push(bar)
-        }
-        current.push(el.cloneNode(true));
-        continue
-      }
-
-      let pos=0;
-      while(pos<rows.length){
-        // If a preceding section bar is at the end of a page, keep it with at least one row.
-        let best=0;
-        for(let take=1;pos+take<=rows.length;take++){
-          const chunk=adminCloneTableWithRows(el,rows.slice(pos,pos+take));
-          if(adminMeasureFits(head,[...current,chunk],footer,type))best=take;
-          else break
-        }
-
-        if(best===0){
-          if(current.length){
-            const bar=carryOrphanBar();
-            flush();
-            if(bar)current.push(bar);
-            continue
-          }
-          // Defensive: a single row must never be dropped even if unusually tall.
-          best=1
-        }
-
-        const chunk=adminCloneTableWithRows(el,rows.slice(pos,pos+best));
-        current.push(chunk);
-        pos+=best;
-
-        if(pos<rows.length)flush()
-      }
-      continue
-    }
-
+  pieces.forEach(el=>{
     const candidate=[...current,el];
-    if(current.length&&!adminMeasureFits(head,candidate,footer,type)){
-      const bar=carryOrphanBar();
+    const measured=adminMeasurePage(head,candidate,footer,type,pages.length);
+    if(current.length&&measured>pageLimit){
       flush();
-      if(bar)current.push(bar);
-      current.push(el.cloneNode(true))
-    }else{
-      current.push(el.cloneNode(true))
-    }
-  }
-
-  // Bottom-anchor the closing signature/approval block. If it does not fit on
-  // the existing final page, move the whole block to a new final page.
-  if(!pages.length&&signoff){
-    if(current.length&&adminMeasureFits(head,[...current,signoff],footer,type)){
-      current.push(signoff.cloneNode(true))
-    }else{
-      flush();
-      current=[signoff.cloneNode(true)]
-    }
-  }
-
-  if(!pages.length)flush();
+      current=[el];
+    }else current=candidate;
+  });
+  flush();
   if(!pages.length)pages.push([]);
 
-  const total=pages.length;
-  return pages.map((blocks,i)=>{
+  const out=pages.map((blocks,i)=>{
     const page=document.createElement('div');
-    page.className=src.className+' admin-print-page'+(i>0?' is-continuation':'');
+    page.className=src.className+' admin-print-page';
     const bodyWrap=document.createElement('div');
     bodyWrap.className='admin-print-body';
-    if(blocks.some(x=>x.classList&&x.classList.contains('printsign')))bodyWrap.classList.add('has-signoff');
-
-    head.forEach(h=>{
-      const c=h.cloneNode(true);
-      if(i>0&&c.classList.contains('printdeck')&&!/CONTINUED|CONTINUACIÓN/.test(c.textContent||'')){
-        c.textContent=c.textContent+' · '+(lang==='es'?'CONTINUACIÓN':'CONTINUED')
-      }
-      bodyWrap.appendChild(c)
-    });
+    head.forEach(h=>bodyWrap.appendChild(h.cloneNode(true)));
     blocks.forEach(b=>bodyWrap.appendChild(b.cloneNode(true)));
     page.appendChild(bodyWrap);
-
-    if(footer){
-      const f=footer.cloneNode(true);
-      if(f.lastElementChild)f.lastElementChild.textContent=(lang==='es'?'PÁGINA ':'PAGE ')+(i+1)+' / '+total;
-      page.appendChild(f)
+    if(footer)page.appendChild(footer.cloneNode(true));
+    const f=page.querySelector('.printfooter');
+    if(f&&f.lastElementChild)f.lastElementChild.textContent=(lang==='es'?'PÁGINA ':'PAGE ')+(i+1)+' / '+pages.length;
+    if(i>0){
+      const deck=page.querySelector('.printdeck');
+      if(deck&&!/CONTINUED|CONTINUACIÓN/.test(deck.textContent||''))deck.textContent=deck.textContent+' · '+(lang==='es'?'CONTINUACIÓN':'CONTINUED');
     }
-    return page.outerHTML
-  }).join('')
+    return page.outerHTML;
+  });
+  return out.join('');
 }
 function rawDocumentHtml(type){return ({time:timeDocument,allowances:allowanceDocument,expenses:expenseDocument,schedule:scheduleDocument,report:reportDocument,financial:financialDocument,summary:projectSummaryDocument}[type]||projectSummaryDocument)()}
 function documentHtml(type){return paginateAdminDocument(rawDocumentHtml(type),type)}
@@ -3914,7 +3505,17 @@ function documentLabel(type){return t(({time:'Weekly Timecard',allowances:'Per D
 function fitDocumentPreview(){const wrap=$('.docpreviewwrap'),stage=$('.docpreviewstage'),preview=$('.docpreview');if(!wrap||!stage||!preview)return;const landscape=!!preview.querySelector('.print-schedule'),baseWidth=landscape?1119:794;preview.style.width=baseWidth+'px';preview.style.transform='none';stage.style.width=baseWidth+'px';stage.style.height='auto';requestAnimationFrame(()=>{const cs=getComputedStyle(wrap),pad=(parseFloat(cs.paddingLeft)||0)+(parseFloat(cs.paddingRight)||0),available=Math.max(240,wrap.clientWidth-pad),scale=Math.min(1,available/baseWidth),height=preview.scrollHeight;preview.style.transform=`scale(${scale})`;stage.style.width=Math.ceil(baseWidth*scale)+'px';stage.style.height=Math.ceil(height*scale)+'px'})}
 function printOrientation(type){return type==='schedule'?'landscape':'portrait'}
 function setPrintOrientation(type){const style=$('#printOrientationStyle');if(style)style.textContent=`@page{size:A4 ${printOrientation(type)};margin:0}`}
-function previewDocument(type){const html=documentHtml(type);$('#modalTitle').textContent=documentLabel(type);$('#modalBody').innerHTML=`<div class="form-actions pdf-actions"><button class="solidbtn" id="printPreviewDoc">Print / Save PDF</button></div><div class="docpreviewwrap"><div class="docpreviewstage"><div class="docpreview">${html}</div></div></div>`;const box=$('#modal').querySelector('.modalbox');box.classList.add('outputmodal');box.classList.toggle('landscape-output',type==='schedule');showModal();setPrintOrientation(type);setTimeout(fitDocumentPreview,0);$('#printPreviewDoc').onclick=()=>printDocument(type)}
+function previewDocument(type){
+  const html=documentHtml(type);
+  $('#modalTitle').textContent=documentLabel(type);
+  $('#modalBody').innerHTML=`<div class="form-actions pdf-actions"><button class="solidbtn" id="printPreviewDoc" type="button" disabled>${lang==='es'?'Preparando PDF…':'Preparing PDF…'}</button></div><div class="docpreviewwrap"><div class="docpreviewstage"><div class="docpreview">${html}</div></div></div>`;
+  const box=$('#modal').querySelector('.modalbox');
+  box.classList.add('outputmodal');
+  box.classList.toggle('landscape-output',type==='schedule');
+  showModal();
+  setPrintOrientation(type);
+  setTimeout(()=>{fitDocumentPreview();printDocument(type)},0);
+}
 function safePrintName(v){return String(v||'').replace(/[\\/:*?"<>|]+/g,' ').replace(/\s+/g,' ').trim()}
 function adminPrintTitle(type){const p=active(),project=safePrintName(p?.meta?.project||p?.name||t('Untitled Project'));return `CDS — ${safePrintName(documentLabel(type))} — ${project}`}
 function printWithTemporaryTitle(title,fn){
@@ -3928,28 +3529,40 @@ function printWithTemporaryTitle(title,fn){
 let adminPdfObjectUrl='';
 async function printDocument(type){
   const html=documentHtml(type);
-  const host=document.createElement('div');host.className='docpreview cds-pdf-source';host.style.cssText='position:fixed;left:-20000px;top:0;opacity:0;pointer-events:none;z-index:-2147483647;';host.innerHTML=html;document.body.appendChild(host);localizeUI(host);
-  const pages=[...host.querySelectorAll('.admin-print-page')],filename=`${adminPrintTitle(type)}.pdf`,btn=$('#printPreviewDoc'),original=btn?btn.textContent:'';
-  const actions=btn?btn.closest('.form-actions'):null;
-  const oldReady=$('#adminPdfReady');if(oldReady)oldReady.remove();
+  const host=document.createElement('div');
+  host.className='docpreview cds-pdf-source';
+  host.style.cssText='position:fixed;left:-20000px;top:0;opacity:0;pointer-events:none;z-index:-2147483647;';
+  host.innerHTML=html;
+  document.body.appendChild(host);
+  localizeUI(host);
+  const pages=[...host.querySelectorAll('.admin-print-page')];
+  const filename=`${adminPrintTitle(type)}.pdf`;
+  const btn=$('#printPreviewDoc');
   if(adminPdfObjectUrl){URL.revokeObjectURL(adminPdfObjectUrl);adminPdfObjectUrl=''}
-  if(btn){btn.disabled=true;btn.textContent=lang==='es'?'Generando PDF…':'Generating PDF…'}
+  if(btn){btn.disabled=true;btn.textContent=lang==='es'?'Preparando PDF…':'Preparing PDF…'}
   try{
-    const result=await CDSFixedPdf.exportPages(pages,{wrapperClass:'docpreview',filename,onProgress:(n,total)=>{if(btn)btn.textContent=`${lang==='es'?'Generando PDF':'Generating PDF'} ${n}/${total}`}});
+    const result=await CDSFixedPdf.exportPages(pages,{
+      wrapperClass:'docpreview',
+      filename,
+      onProgress:(n,total)=>{if(btn)btn.textContent=`${lang==='es'?'Preparando PDF':'Preparing PDF'} ${n}/${total}`}
+    });
     adminPdfObjectUrl=result.url;
-    if(actions){
-      actions.classList.add('is-ready');
-      const ready=document.createElement('span');
-      ready.id='adminPdfReady';ready.className='pdf-ready-actions';
-      ready.innerHTML=`<a class="solidbtn" href="${adminPdfObjectUrl}" target="_blank" rel="noopener">${lang==='es'?'Abrir PDF':'Open PDF'}</a><a class="softbtn" href="${adminPdfObjectUrl}" download="${esc(filename)}">${lang==='es'?'Guardar PDF':'Save PDF'}</a><span class="pdf-ready-note">${lang==='es'?'PDF creado localmente.':'PDF created locally.'}</span>`;
-      actions.appendChild(ready);
+    if(btn){
+      const open=document.createElement('a');
+      open.id='printPreviewDoc';
+      open.className='solidbtn';
+      open.href=adminPdfObjectUrl;
+      open.target='_blank';
+      open.rel='noopener';
+      open.textContent=lang==='es'?'Abrir PDF':'Open PDF';
+      btn.replaceWith(open);
     }
   }catch(err){
     console.error(err);
+    if(btn){btn.disabled=true;btn.textContent=lang==='es'?'Error al crear PDF':'PDF generation failed'}
     flash(lang==='es'?'No se pudo generar el PDF.':'PDF generation failed.');
   }finally{
     host.remove();
-    if(btn){btn.disabled=false;btn.textContent=original||'Print / Save PDF'}
   }
 }
 window.addEventListener('resize',()=>{if($('.docpreview'))fitDocumentPreview();setupHorizontalScrollHints(document)});window.addEventListener('orientationchange',()=>setTimeout(()=>{fitDocumentPreview();setupHorizontalScrollHints(document)},120));
@@ -4295,11 +3908,5 @@ renderLaunch();localizeUI(document);
 })();
 </script>
 
-
-<script id="cdsPwaRegistration_v1">
-if('serviceWorker' in navigator && (location.protocol==='https:' || ['localhost','127.0.0.1'].includes(location.hostname))){
-  window.addEventListener('load',()=>{navigator.serviceWorker.register('./sw.js',{scope:'./'}).then(reg=>reg.update().catch(()=>{})).catch(()=>{});});
-}
-</script>
 </body>
 </html>
